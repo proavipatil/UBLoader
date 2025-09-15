@@ -6,5 +6,5 @@ MAX_PY = "3.11"
 CONF_PATH = "config.env"
 
 # will be removed after pluggable utils and res
-CORE_REPO = environ.get('CORE_REPO', "https://github.com/proavipatil/Userge")
-CORE_BRANCH = environ.get('CORE_BRANCH', "beta")
+CORE_REPO = "https://github.com/proavipatil/UsergeUpstream"
+CORE_BRANCH = "alpha"
