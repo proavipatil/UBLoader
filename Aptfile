@@ -1,5 +1,6 @@
 git
 zlib1g-dev
+libjpeg62-turbo-dev
 libjpeg-dev
 libpng-dev
 libfreetype6-dev
@@ -8,4 +9,14 @@ libwebp-dev
 libharfbuzz-dev
 libfribidi-dev
 libxcb1-dev
+libtiff5-dev
+libopenjp2-7-dev
+libimagequant-dev
+libraqm-dev
+build-essential
 ffmpeg
+tree
+wget2
+p7zip-full
+mkvtoolnix
+mediainfo
