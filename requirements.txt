@@ -5,6 +5,7 @@ motor
 python-dotenv
 aiofiles
 pyrogram==2.0.106
+heroku3
 # https://github.com/TelegramPlayGround/pyrogram/archive/ffbce0c.zip
 
 
