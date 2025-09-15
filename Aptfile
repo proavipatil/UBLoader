@@ -1,6 +1,6 @@
 git
 zlib1g-dev
-libjpeg62-turbo-dev
+libjpeg-turbo8-dev
 libjpeg-dev
 libpng-dev
 libfreetype6-dev
