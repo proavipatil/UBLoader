@@ -21,3 +21,12 @@ wget2
 p7zip-full
 mkvtoolnix
 mediainfo
+curl
+pv
+jq
+gnupg2
+unzip
+wget
+aria2
+unrar-free
+fdkaac
