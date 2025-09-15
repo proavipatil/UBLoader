@@ -7,4 +7,4 @@ CONF_PATH = "config.env"
 
 # will be removed after pluggable utils and res
 CORE_REPO = "https://github.com/proavipatil/UsergeUpstream"
-CORE_BRANCH = "alpha"
+CORE_BRANCH = "main"
