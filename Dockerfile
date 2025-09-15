@@ -4,8 +4,7 @@ FROM python:3.9
 # set the working directory in the container
 WORKDIR /app/
 
-RUN apt -qq update
-RUN apt -qq install -y --no-install-recommends \
+RUN apt -qq update && apt -qq install -y --no-install-recommends \
     curl git pv jq gnupg2 unzip wget ffmpeg \
     mediainfo aria2 p7zip-full unrar-free 
     
