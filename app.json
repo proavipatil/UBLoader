@@ -1,0 +1,33 @@
+{
+  "name": "UBLoader",
+  "description": "Userge Bot Loader",
+  "keywords": ["telegram", "userbot", "python"],
+  "repository": "https://github.com/proavipatil/UBLoader",
+  "stack": "container",
+  "env": {
+    "DATABASE_URL": {
+      "description": "MongoDB Database URL",
+      "required": true
+    },
+    "API_ID": {
+      "description": "Telegram API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash",
+      "required": true
+    },
+    "GIT_PYTHON_REFRESH": {
+      "description": "Git Python Refresh Setting",
+      "value": "quiet",
+      "required": false
+    }
+  },
+  "buildpacks": [],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
+}
